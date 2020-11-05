@@ -1,0 +1,28 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+
+.main-subtile{
+	text-align: center;
+	color:#50246f;
+}
+
+.primary-color{
+	color:#50246f;
+}
+.secondary-color{
+	color:#a0c02f;
+}
+.container-wrap{
+	display: flex;
+}
+.padding1{
+padding-left: 25%;
+}
+.padding2{
+	padding-left: 10%;
+	}
