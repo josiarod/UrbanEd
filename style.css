@@ -182,7 +182,7 @@ h3,
 h4,
 h5,
 h6 {
-	color:#50246f;
+	color:#0e1e42;
 	font-weight: 600;
 	line-height: 1.5;
 	margin: 0 0 30px 0;
@@ -659,7 +659,7 @@ a.h-text-light:hover {
 
 .h-text-dark:hover,
 a.h-text-dark:hover {
-	color: #343a40 !important;
+	color: #0e1e42 !important;
 }
 
 
@@ -3559,9 +3559,9 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 	display: block;
 	line-height: 22px;
 	padding: 14px 5px;
-	color:#6b408f;
+	color:menu-link;
 	font-weight: 700;
-	font-size: 0.8125rem;
+	font-size: 0.9125rem;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	font-family: 'Poppins', sans-serif;
@@ -6349,7 +6349,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 #page-title {
 	position: relative;
 	padding: 4rem 0;
-	background-color:  #6a3f8e;
+	background-color:  #188bff;
 	border-bottom: 1px solid #EEE;
 }
 
@@ -6363,7 +6363,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 	line-height: 1;
 	font-weight: 600;
 	letter-spacing: 1px;
-	color: #333;
+	color: white;
 	font-size: 2rem;
 	text-transform: uppercase;
 }
@@ -7516,7 +7516,7 @@ body:not(.device-touch) .portfolio {
 
 .entry-title h2 a,
 .entry-title h3 a,
-.entry-title h4 a { color:#50246f; }
+.entry-title h4 a { color:#0e1e42}
 
 .entry-title h2 a:hover,
 .entry-title h3 a:hover,
@@ -7615,7 +7615,7 @@ body:not(.device-touch) .portfolio {
 	background-color: #F5F5F5;
 	padding: 30px 0;
 	text-align: center;
-	color: #444;
+	color: rgb(68, 68, 68);
 	font-family: 'Poppins', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -14033,7 +14033,7 @@ button.toast-close-button {
 
 #footer {
 	position: relative;
-	background-color: #EEE;
+	background-color: #188bff;
 	border-top: 5px solid rgba(0,0,0,0.2);
 }
 

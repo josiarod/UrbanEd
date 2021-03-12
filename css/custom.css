@@ -8,14 +8,14 @@
 
 .main-subtile{
 	text-align: center;
-	color:#50246f;
+	color:#0e1e42;
 }
 
 .primary-color{
-	color:#50246f;
+	color:#0e1e42;opacity:0.8
 }
 .secondary-color{
-	color:#a0c02f;
+	color:#0e1e42;opacity:0.8
 }
 .container-wrap{
 	display: flex;
@@ -38,13 +38,22 @@ padding-left: 25%;
 }
 
 .share-banner h2{
-	color:#a0c02f;
+	color:#0e1e42;
 }
 
 a{
-	color: #6a3f8e;
+	color:blue;
 }
 
 .ul-padding{
 	padding: 20px 0 0 100px;
+}
+
+p{
+	size: 25px;
+}
+
+.centered{
+	margin-left: auto;
+    margin-right: auto;
 }
