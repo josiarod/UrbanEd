@@ -182,7 +182,7 @@ h3,
 h4,
 h5,
 h6 {
-	color:#0e1e42;
+	color:#512570;
 	font-weight: 600;
 	line-height: 1.5;
 	margin: 0 0 30px 0;
@@ -6349,7 +6349,10 @@ body:not(.has-plugin-html5video) .video-wrap video {
 #page-title {
 	position: relative;
 	padding: 4rem 0;
-	background-color:  #188bff;
+	background: #770CC3;
+	background: -webkit-radial-gradient(left, #770CC3, #7881D3);
+	background: -moz-radial-gradient(left, #770CC3, #7881D3);
+	background: radial-gradient(to right, #770CC3, #7881D3);
 	border-bottom: 1px solid #EEE;
 }
 

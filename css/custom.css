@@ -12,20 +12,24 @@
 }
 
 .primary-color{
-	color:#0e1e42;opacity:0.8
+	color:#512570;
 }
+
 .secondary-color{
-	color:#0e1e42;opacity:0.8
+	color:#512570;opacity:0.8
 }
 .container-wrap{
 	display: flex;
 }
+
 .padding1{
 padding-left: 25%;
 }
+
 .padding2{
 	padding-left: 10%;
-	}
+}
+
 .share-banner{
 	height: 200px;
 	background-repeat: no-repeat; 
@@ -42,7 +46,7 @@ padding-left: 25%;
 }
 
 a{
-	color:blue;
+	color:#512570;
 }
 
 
