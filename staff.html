@@ -599,9 +599,59 @@
 	============================================= -->
 	<script src="js/jquery.js"></script>
 	<script src="js/plugins.min.js"></script>
+	<script src="js/hover3d.js" ></script>
 
 	<!-- Footer Scripts
 	============================================= -->
 	<script src="js/functions.js"></script>
+
+
+	<script>
+
+		jQuery(document).ready( function(){
+
+			if( !jQuery('body').hasClass('device-touch') ) {
+
+				var lFollowX = 0,
+					lFollowY = 0,
+					x = 0,
+					y = 0,
+					friction = 1 / 30;
+
+				function moveBackground() {
+					x += (lFollowX - x) * friction;
+					y += (lFollowY - y) * friction;
+
+					translate = 'translate(' + x + 'px, ' + y + 'px) scale(1.1)';
+
+					jQuery('.move-bg').css({
+						'-webit-transform': translate,
+						'-moz-transform': translate,
+						'transform': translate
+					});
+
+					window.requestAnimationFrame(moveBackground);
+				}
+
+				jQuery('.move-bg').parents('.section').on('mousemove click', function(e) {
+
+					var lMouseX = Math.max(-100, Math.min(100, jQuery(window).width() / 2 - e.clientX));
+					var lMouseY = Math.max(-100, Math.min(100, jQuery(window).height() / 2 - e.clientY));
+					lFollowX = (20 * lMouseX) / 100; // 100 : 12 = lMouxeX : lFollow
+					lFollowY = (20 * lMouseY) / 100;
+
+				});
+
+				moveBackground();
+			}
+
+			jQuery(".img-hover-wrap").hover3d({
+				selector: ".img-hover-card",
+				shine: false,
+			});
+
+		});
+
+	</script>
 </body>
 </html>
